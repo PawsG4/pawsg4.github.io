@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Pets Are Worth Saving</title>
+    <link rel="stylesheet" href="stylereg.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card header">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large ">P.A.W.S.</a>
+
+        </div>
+    </div>
+    <div class="center">
+        <h1>Sign Up</h1>
+
+        <form action="connect.php" method="post">
+
+            <div class="txt_field">
+                <p>
+                    <input type="text" required name="username" id="username">
+                    <span></span>
+                    <label>Username</label>
+                </p>
+            </div>
+
+            <div class="txt_field">
+                <p>
+                    <input type="password" required name="password" id="password">
+                    <span></span>
+                    <label>Password</label>
+                </p>
+            </div>
+
+            <div class="txt_field">
+                <p>
+                    <input type="text" required name="firstName" id="firstName">
+                    <span></span>
+                    <label>First Name</label>
+                </p>
+            </div>
+
+            <div class="txt_field">
+                <p>
+                    <input type="text" required name="lastName" id="lastName">
+                    <span></span>
+                    <label>Last Name</label>
+                </p>
+            </div>
+
+            <div class="txt_field">
+                <p>
+                    <input type="text" required name="address" id="address">
+                    <span></span>
+                    <label>Address</label>
+                </p>
+            </div>
+            <div class="txt_field">
+                <p>
+                    <input type="date" name="birthDate" id="birthDate">
+                    <span></span>
+                    <label>Birthdate</label>
+                </p>
+            </div>
+
+            <div class="txt_field">
+                <p>
+                    <input type="text" required name="email" id="email">
+                    <span></span>
+                    <label>Email</label>
+                </p>
+            </div>
+            <div class="txt_field">
+                <p>
+                    <input type="number" required name="number" id="number">
+                    <span></span>
+                    <label>Phone number</label>
+                </p>
+            </div>
+                <label for="gender"> Gender: </label>
+                <select name="gender" type="gender" id="gender">
+	            <option value="other" selected>Other</option>
+	            <option value="male">Male</option>
+	            <option value="female">Female</option>
+        </select>
+
+            <br>
+            <br>
+            <br>
+
+            <input type="submit" value="Sign Up">
+            <div class="signup_link">
+                Already have account? <a href="login.html">Login</a>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+</html>

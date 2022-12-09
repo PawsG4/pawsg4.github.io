@@ -1,0 +1,1 @@
+Lagay niyo muna sa c drive niyo or ket saang drive basta nasa start ng drive dapat kagaya ng c/P.A.W.S/ ganon or d/P.A.W.S
